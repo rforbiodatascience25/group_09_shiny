@@ -57,6 +57,7 @@ ui <- page_fluid(
         verbatimTextOutput(outputId = "dna")
       )
     )),
+
   
   
   
@@ -70,3 +71,13 @@ ui <- page_fluid(
         verbatimTextOutput(outputId = "protein")
       )))
 )
+
+  layout_columns(
+    col_widths = 12,
+    card(
+      card_header(" Virtual RNA polymerase"),
+      mainPanel(
+        verbatimTextOutput(outputId = "rna")
+  
+  
+
