@@ -1,3 +1,4 @@
+library("shiny")
 # Define the "Virtual Gene"-function (See code for functions above)
 
 # Virtual gene

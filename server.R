@@ -1,3 +1,5 @@
+library("shiny")
+
 source(file = "app_functions.R")
 source(file = "ui.R")
 
