@@ -58,9 +58,15 @@ ui <- page_fluid(
       )
     )),
 
-  
-  
-  
+  layout_columns(
+    col_widths = 12,
+    card(
+      card_header(" Virtual RNA polymerase"),
+      mainPanel(
+        verbatimTextOutput(outputId = "rna")
+      )
+    )
+  ),
   
   
   layout_columns(
@@ -72,12 +78,6 @@ ui <- page_fluid(
       )))
 )
 
-  layout_columns(
-    col_widths = 12,
-    card(
-      card_header(" Virtual RNA polymerase"),
-      mainPanel(
-        verbatimTextOutput(outputId = "rna")
-  
+
   
 
